@@ -1,0 +1,11 @@
+{
+  "commitish" : "3.0.7",
+  "iOS" : [
+    {
+      "hash" : "72ad6f06049c7be1a9329c660068c3f00a46dee5dbc4ff8599b64fb6b4739e39",
+      "name" : "KRActivityIndicatorView",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+    }
+  ]
+}

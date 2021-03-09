@@ -7,18 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D39803D25481FB5004BA11D /* PaymentModesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D39803025481FB5004BA11D /* PaymentModesVC.swift */; };
+		8D39803E25481FB5004BA11D /* PaymentModesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D39803125481FB5004BA11D /* PaymentModesVC.xib */; };
+		8D39803F25481FB5004BA11D /* WebVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D39803325481FB5004BA11D /* WebVC.xib */; };
+		8D39804025481FB5004BA11D /* WebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D39803425481FB5004BA11D /* WebVC.swift */; };
+		8D39804125481FB5004BA11D /* TransactionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D39803625481FB5004BA11D /* TransactionVC.swift */; };
+		8D39804225481FB5004BA11D /* TransactionVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D39803725481FB5004BA11D /* TransactionVC.xib */; };
+		8D39804325481FB5004BA11D /* PaymentDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D39803925481FB5004BA11D /* PaymentDetailVC.xib */; };
+		8D39804425481FB5004BA11D /* PaymentDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D39803A25481FB5004BA11D /* PaymentDetailVC.swift */; };
+		8D4502412554216E00759FB6 /* Epp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4502402554216E00759FB6 /* Epp.swift */; };
+		8D86ACE625666A88006124C8 /* Tabby.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D86ACE525666A88006124C8 /* Tabby.swift */; };
+		8D920301254BE52E00D0D5CD /* TabbyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D920300254BE52E00D0D5CD /* TabbyView.swift */; };
+		8D920303254BE56900D0D5CD /* TabbyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D920302254BE56900D0D5CD /* TabbyView.xib */; };
+		8D920305254C275C00D0D5CD /* EmiViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D920304254C275C00D0D5CD /* EmiViewHeader.swift */; };
+		8D920307254C277600D0D5CD /* EmiViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D920306254C277600D0D5CD /* EmiViewHeader.xib */; };
+		8D92030A254D592400D0D5CD /* EmiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D920308254D592400D0D5CD /* EmiCell.swift */; };
+		8D92030B254D592400D0D5CD /* EmiCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D920309254D592400D0D5CD /* EmiCell.xib */; };
+		8D92030E254D64CA00D0D5CD /* EmiCellTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D92030C254D64CA00D0D5CD /* EmiCellTable.swift */; };
+		8D92030F254D64CA00D0D5CD /* EmiCellTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D92030D254D64CA00D0D5CD /* EmiCellTable.xib */; };
+		8D920311254D68D700D0D5CD /* EmiCellHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D920310254D68D700D0D5CD /* EmiCellHeader.swift */; };
+		8D920313254D68E200D0D5CD /* EmiCellHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D920312254D68E200D0D5CD /* EmiCellHeader.xib */; };
+		8D920317254D760900D0D5CD /* EmiHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D920315254D760900D0D5CD /* EmiHeaderCell.swift */; };
+		8D920318254D760900D0D5CD /* EmiHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D920316254D760900D0D5CD /* EmiHeaderCell.xib */; };
+		8DB7CCCC25481E43007C0A57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DB7CCCB25481E43007C0A57 /* Assets.xcassets */; };
+		8DD0142225F77DFD001474F3 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE2D3F325480EE8009591A9 /* Alamofire.framework */; };
+		8DD0142325F77DFD001474F3 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE2D3F325480EE8009591A9 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8DD0142425F77DFD001474F3 /* AnyCodable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D86ACE725666DB3006124C8 /* AnyCodable.framework */; };
+		8DD0142525F77DFD001474F3 /* AnyCodable.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8D86ACE725666DB3006124C8 /* AnyCodable.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8DD0142625F77DFD001474F3 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE2D3F725480EE8009591A9 /* CryptoSwift.framework */; };
+		8DD0142725F77DFD001474F3 /* CryptoSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE2D3F725480EE8009591A9 /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8DD0142825F77DFD001474F3 /* IQKeyboardManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE2D3F425480EE8009591A9 /* IQKeyboardManager.framework */; };
+		8DD0142925F77DFD001474F3 /* IQKeyboardManager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE2D3F425480EE8009591A9 /* IQKeyboardManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8DD0142A25F77DFD001474F3 /* IQKeyboardManagerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D398047254820BC004BA11D /* IQKeyboardManagerSwift.framework */; };
+		8DD0142B25F77DFD001474F3 /* IQKeyboardManagerSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8D398047254820BC004BA11D /* IQKeyboardManagerSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8DD0142C25F77DFD001474F3 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE2D3F525480EE8009591A9 /* Kingfisher.framework */; };
+		8DD0142D25F77DFD001474F3 /* Kingfisher.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE2D3F525480EE8009591A9 /* Kingfisher.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8DD0142E25F77DFD001474F3 /* KRActivityIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE2D40525480F0B009591A9 /* KRActivityIndicatorView.framework */; };
+		8DD0142F25F77DFD001474F3 /* KRActivityIndicatorView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE2D40525480F0B009591A9 /* KRActivityIndicatorView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8DD0143025F77DFD001474F3 /* KRProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE2D3F225480EE8009591A9 /* KRProgressHUD.framework */; };
+		8DD0143125F77DFD001474F3 /* KRProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE2D3F225480EE8009591A9 /* KRProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8DD0143225F77DFD001474F3 /* RSSelectionMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE2D3F625480EE8009591A9 /* RSSelectionMenu.framework */; };
+		8DD0143325F77DFD001474F3 /* RSSelectionMenu.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE2D3F625480EE8009591A9 /* RSSelectionMenu.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8DDDFEEF2567B9DC0012D646 /* TabbyWebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDDFEED2567B9DC0012D646 /* TabbyWebVC.swift */; };
+		8DDDFEF02567B9DC0012D646 /* TabbyWebVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DDDFEEE2567B9DC0012D646 /* TabbyWebVC.xib */; };
+		8DE2D40925480F18009591A9 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE2D40825480F18009591A9 /* WebKit.framework */; };
+		8DE2D41C25481035009591A9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE2D40B25481035009591A9 /* Constants.swift */; };
+		8DE2D41D25481035009591A9 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE2D40D25481035009591A9 /* DataService.swift */; };
+		8DE2D41E25481035009591A9 /* DataClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE2D40E25481035009591A9 /* DataClient.swift */; };
+		8DE2D41F25481035009591A9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE2D40F25481035009591A9 /* Extensions.swift */; };
+		8DE2D42025481035009591A9 /* AESManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE2D41025481035009591A9 /* AESManager.swift */; };
+		8DE2D42125481035009591A9 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE2D41125481035009591A9 /* Utils.swift */; };
+		8DE2D42225481035009591A9 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DE2D41325481035009591A9 /* Ubuntu-Medium.ttf */; };
+		8DE2D42325481035009591A9 /* Ubuntu-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DE2D41425481035009591A9 /* Ubuntu-LightItalic.ttf */; };
+		8DE2D42425481035009591A9 /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DE2D41525481035009591A9 /* Ubuntu-Regular.ttf */; };
+		8DE2D42525481035009591A9 /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DE2D41625481035009591A9 /* Ubuntu-Bold.ttf */; };
+		8DE2D42625481035009591A9 /* Ubuntu-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DE2D41725481035009591A9 /* Ubuntu-MediumItalic.ttf */; };
+		8DE2D42725481035009591A9 /* Ubuntu-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DE2D41825481035009591A9 /* Ubuntu-BoldItalic.ttf */; };
+		8DE2D42825481035009591A9 /* Ubuntu-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DE2D41925481035009591A9 /* Ubuntu-Italic.ttf */; };
+		8DE2D42925481035009591A9 /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DE2D41A25481035009591A9 /* Ubuntu-Light.ttf */; };
+		8DE2D42A25481035009591A9 /* UnderLineImageTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE2D41B25481035009591A9 /* UnderLineImageTextField.swift */; };
+		8DE2D42E2548104F009591A9 /* PaymentMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE2D42C2548104F009591A9 /* PaymentMode.swift */; };
+		8DE2D42F2548104F009591A9 /* BrandingDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE2D42D2548104F009591A9 /* BrandingDetail.swift */; };
+		8DE2D455254810B4009591A9 /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE2D431254810B4009591A9 /* TransactionView.swift */; };
+		8DE2D456254810B4009591A9 /* TransactionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DE2D432254810B4009591A9 /* TransactionView.xib */; };
+		8DE2D458254810B4009591A9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE2D434254810B4009591A9 /* CardView.swift */; };
+		8DE2D45B254810B4009591A9 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DE2D437254810B4009591A9 /* CardView.xib */; };
+		8DE2D46A254810B4009591A9 /* SavedCardsHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DE2D448254810B4009591A9 /* SavedCardsHeader.xib */; };
+		8DE2D46B254810B4009591A9 /* SavedCardsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE2D449254810B4009591A9 /* SavedCardsHeader.swift */; };
+		8DE2D46F254810B4009591A9 /* PaymentModeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DE2D44D254810B4009591A9 /* PaymentModeCell.xib */; };
+		8DE2D470254810B4009591A9 /* AddCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE2D44E254810B4009591A9 /* AddCardCell.swift */; };
+		8DE2D474254810B4009591A9 /* PaymentModeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE2D452254810B4009591A9 /* PaymentModeCell.swift */; };
+		8DE2D476254810B4009591A9 /* AddCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DE2D454254810B4009591A9 /* AddCardCell.xib */; };
 		D0978C9F2547FD3A00DA9392 /* Safex_Pay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0978C952547FD3900DA9392 /* Safex_Pay.framework */; };
 		D0978CA42547FD3A00DA9392 /* Safex_PayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0978CA32547FD3A00DA9392 /* Safex_PayTests.swift */; };
 		D0978CA62547FD3A00DA9392 /* Safex_Pay.h in Headers */ = {isa = PBXBuildFile; fileRef = D0978C982547FD3900DA9392 /* Safex_Pay.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0978CB82547FD5E00DA9392 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0978CB72547FD5E00DA9392 /* AppDelegate.swift */; };
-		D0978CBA2547FD5E00DA9392 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0978CB92547FD5E00DA9392 /* SceneDelegate.swift */; };
-		D0978CBC2547FD5E00DA9392 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0978CBB2547FD5E00DA9392 /* ViewController.swift */; };
-		D0978CBF2547FD5E00DA9392 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0978CBD2547FD5E00DA9392 /* Main.storyboard */; };
-		D0978CC12547FD6200DA9392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0978CC02547FD6200DA9392 /* Assets.xcassets */; };
-		D0978CC42547FD6200DA9392 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0978CC22547FD6200DA9392 /* LaunchScreen.storyboard */; };
-		D0978CD02547FD8C00DA9392 /* Safex-pay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0978CCF2547FD8C00DA9392 /* Safex-pay.swift */; };
-		D0978CD52547FDDA00DA9392 /* Safex_Pay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0978C952547FD3900DA9392 /* Safex_Pay.framework */; };
-		D0978CD62547FDDA00DA9392 /* Safex_Pay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D0978C952547FD3900DA9392 /* Safex_Pay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D0978CD02547FD8C00DA9392 /* Safex_pay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0978CCF2547FD8C00DA9392 /* Safex_pay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,23 +92,24 @@
 			remoteGlobalIDString = D0978C942547FD3900DA9392;
 			remoteInfo = "Safex-Pay";
 		};
-		D0978CD72547FDDA00DA9392 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D0978C8C2547FD3900DA9392 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D0978C942547FD3900DA9392;
-			remoteInfo = "Safex-Pay";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D0978CD92547FDDA00DA9392 /* Embed Frameworks */ = {
+		8DD0143425F77DFD001474F3 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D0978CD62547FDDA00DA9392 /* Safex_Pay.framework in Embed Frameworks */,
+				8DD0142F25F77DFD001474F3 /* KRActivityIndicatorView.framework in Embed Frameworks */,
+				8DD0142725F77DFD001474F3 /* CryptoSwift.framework in Embed Frameworks */,
+				8DD0142B25F77DFD001474F3 /* IQKeyboardManagerSwift.framework in Embed Frameworks */,
+				8DD0142925F77DFD001474F3 /* IQKeyboardManager.framework in Embed Frameworks */,
+				8DD0142525F77DFD001474F3 /* AnyCodable.framework in Embed Frameworks */,
+				8DD0142D25F77DFD001474F3 /* Kingfisher.framework in Embed Frameworks */,
+				8DD0143125F77DFD001474F3 /* KRProgressHUD.framework in Embed Frameworks */,
+				8DD0143325F77DFD001474F3 /* RSSelectionMenu.framework in Embed Frameworks */,
+				8DD0142325F77DFD001474F3 /* Alamofire.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,21 +117,75 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8D39803025481FB5004BA11D /* PaymentModesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentModesVC.swift; sourceTree = "<group>"; };
+		8D39803125481FB5004BA11D /* PaymentModesVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaymentModesVC.xib; sourceTree = "<group>"; };
+		8D39803325481FB5004BA11D /* WebVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebVC.xib; sourceTree = "<group>"; };
+		8D39803425481FB5004BA11D /* WebVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebVC.swift; sourceTree = "<group>"; };
+		8D39803625481FB5004BA11D /* TransactionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionVC.swift; sourceTree = "<group>"; };
+		8D39803725481FB5004BA11D /* TransactionVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransactionVC.xib; sourceTree = "<group>"; };
+		8D39803925481FB5004BA11D /* PaymentDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaymentDetailVC.xib; sourceTree = "<group>"; };
+		8D39803A25481FB5004BA11D /* PaymentDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentDetailVC.swift; sourceTree = "<group>"; };
+		8D398047254820BC004BA11D /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IQKeyboardManagerSwift.framework; path = Carthage/Build/iOS/IQKeyboardManagerSwift.framework; sourceTree = "<group>"; };
+		8D4502402554216E00759FB6 /* Epp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Epp.swift; sourceTree = "<group>"; };
+		8D86ACE525666A88006124C8 /* Tabby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabby.swift; sourceTree = "<group>"; };
+		8D86ACE725666DB3006124C8 /* AnyCodable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AnyCodable.framework; path = Carthage/Build/iOS/AnyCodable.framework; sourceTree = "<group>"; };
+		8D920300254BE52E00D0D5CD /* TabbyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbyView.swift; sourceTree = "<group>"; };
+		8D920302254BE56900D0D5CD /* TabbyView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabbyView.xib; sourceTree = "<group>"; };
+		8D920304254C275C00D0D5CD /* EmiViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmiViewHeader.swift; sourceTree = "<group>"; };
+		8D920306254C277600D0D5CD /* EmiViewHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmiViewHeader.xib; sourceTree = "<group>"; };
+		8D920308254D592400D0D5CD /* EmiCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmiCell.swift; sourceTree = "<group>"; };
+		8D920309254D592400D0D5CD /* EmiCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmiCell.xib; sourceTree = "<group>"; };
+		8D92030C254D64CA00D0D5CD /* EmiCellTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmiCellTable.swift; sourceTree = "<group>"; };
+		8D92030D254D64CA00D0D5CD /* EmiCellTable.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmiCellTable.xib; sourceTree = "<group>"; };
+		8D920310254D68D700D0D5CD /* EmiCellHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmiCellHeader.swift; sourceTree = "<group>"; };
+		8D920312254D68E200D0D5CD /* EmiCellHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmiCellHeader.xib; sourceTree = "<group>"; };
+		8D920315254D760900D0D5CD /* EmiHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmiHeaderCell.swift; sourceTree = "<group>"; };
+		8D920316254D760900D0D5CD /* EmiHeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmiHeaderCell.xib; sourceTree = "<group>"; };
+		8DB7CCCB25481E43007C0A57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DDDFEED2567B9DC0012D646 /* TabbyWebVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbyWebVC.swift; sourceTree = "<group>"; };
+		8DDDFEEE2567B9DC0012D646 /* TabbyWebVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabbyWebVC.xib; sourceTree = "<group>"; };
+		8DE2D3F225480EE8009591A9 /* KRProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KRProgressHUD.framework; path = Carthage/Build/iOS/KRProgressHUD.framework; sourceTree = "<group>"; };
+		8DE2D3F325480EE8009591A9 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		8DE2D3F425480EE8009591A9 /* IQKeyboardManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IQKeyboardManager.framework; path = Carthage/Build/iOS/IQKeyboardManager.framework; sourceTree = "<group>"; };
+		8DE2D3F525480EE8009591A9 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
+		8DE2D3F625480EE8009591A9 /* RSSelectionMenu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RSSelectionMenu.framework; path = Carthage/Build/iOS/RSSelectionMenu.framework; sourceTree = "<group>"; };
+		8DE2D3F725480EE8009591A9 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = Carthage/Build/iOS/CryptoSwift.framework; sourceTree = "<group>"; };
+		8DE2D40525480F0B009591A9 /* KRActivityIndicatorView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KRActivityIndicatorView.framework; path = Carthage/Build/iOS/KRActivityIndicatorView.framework; sourceTree = "<group>"; };
+		8DE2D40825480F18009591A9 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		8DE2D40B25481035009591A9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8DE2D40D25481035009591A9 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		8DE2D40E25481035009591A9 /* DataClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataClient.swift; sourceTree = "<group>"; };
+		8DE2D40F25481035009591A9 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8DE2D41025481035009591A9 /* AESManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AESManager.swift; sourceTree = "<group>"; };
+		8DE2D41125481035009591A9 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		8DE2D41325481035009591A9 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
+		8DE2D41425481035009591A9 /* Ubuntu-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-LightItalic.ttf"; sourceTree = "<group>"; };
+		8DE2D41525481035009591A9 /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
+		8DE2D41625481035009591A9 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
+		8DE2D41725481035009591A9 /* Ubuntu-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-MediumItalic.ttf"; sourceTree = "<group>"; };
+		8DE2D41825481035009591A9 /* Ubuntu-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-BoldItalic.ttf"; sourceTree = "<group>"; };
+		8DE2D41925481035009591A9 /* Ubuntu-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Italic.ttf"; sourceTree = "<group>"; };
+		8DE2D41A25481035009591A9 /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Light.ttf"; sourceTree = "<group>"; };
+		8DE2D41B25481035009591A9 /* UnderLineImageTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnderLineImageTextField.swift; sourceTree = "<group>"; };
+		8DE2D42C2548104F009591A9 /* PaymentMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentMode.swift; sourceTree = "<group>"; };
+		8DE2D42D2548104F009591A9 /* BrandingDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrandingDetail.swift; sourceTree = "<group>"; };
+		8DE2D431254810B4009591A9 /* TransactionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
+		8DE2D432254810B4009591A9 /* TransactionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransactionView.xib; sourceTree = "<group>"; };
+		8DE2D434254810B4009591A9 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		8DE2D437254810B4009591A9 /* CardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+		8DE2D448254810B4009591A9 /* SavedCardsHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SavedCardsHeader.xib; sourceTree = "<group>"; };
+		8DE2D449254810B4009591A9 /* SavedCardsHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedCardsHeader.swift; sourceTree = "<group>"; };
+		8DE2D44D254810B4009591A9 /* PaymentModeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaymentModeCell.xib; sourceTree = "<group>"; };
+		8DE2D44E254810B4009591A9 /* AddCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCardCell.swift; sourceTree = "<group>"; };
+		8DE2D452254810B4009591A9 /* PaymentModeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentModeCell.swift; sourceTree = "<group>"; };
+		8DE2D454254810B4009591A9 /* AddCardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddCardCell.xib; sourceTree = "<group>"; };
 		D0978C952547FD3900DA9392 /* Safex_Pay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Safex_Pay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0978C982547FD3900DA9392 /* Safex_Pay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Safex_Pay.h; sourceTree = "<group>"; };
 		D0978C992547FD3900DA9392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0978C9E2547FD3A00DA9392 /* Safex-PayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Safex-PayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0978CA32547FD3A00DA9392 /* Safex_PayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safex_PayTests.swift; sourceTree = "<group>"; };
 		D0978CA52547FD3A00DA9392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D0978CB52547FD5E00DA9392 /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0978CB72547FD5E00DA9392 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D0978CB92547FD5E00DA9392 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D0978CBB2547FD5E00DA9392 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D0978CBE2547FD5E00DA9392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D0978CC02547FD6200DA9392 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D0978CC32547FD6200DA9392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D0978CC52547FD6200DA9392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D0978CCF2547FD8C00DA9392 /* Safex-pay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Safex-pay.swift"; sourceTree = "<group>"; };
+		D0978CCF2547FD8C00DA9392 /* Safex_pay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safex_pay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +193,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DE2D40925480F18009591A9 /* WebKit.framework in Frameworks */,
+				8DD0143025F77DFD001474F3 /* KRProgressHUD.framework in Frameworks */,
+				8DD0142C25F77DFD001474F3 /* Kingfisher.framework in Frameworks */,
+				8DD0142225F77DFD001474F3 /* Alamofire.framework in Frameworks */,
+				8DD0142825F77DFD001474F3 /* IQKeyboardManager.framework in Frameworks */,
+				8DD0142425F77DFD001474F3 /* AnyCodable.framework in Frameworks */,
+				8DD0142E25F77DFD001474F3 /* KRActivityIndicatorView.framework in Frameworks */,
+				8DD0142A25F77DFD001474F3 /* IQKeyboardManagerSwift.framework in Frameworks */,
+				8DD0142625F77DFD001474F3 /* CryptoSwift.framework in Frameworks */,
+				8DD0143225F77DFD001474F3 /* RSSelectionMenu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,23 +214,164 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0978CB22547FD5E00DA9392 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D0978CD52547FDDA00DA9392 /* Safex_Pay.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D39802B25481FB5004BA11D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8D39802F25481FB5004BA11D /* PaymentModesVC */,
+				8D39803825481FB5004BA11D /* PaymentDetailVC */,
+				8D39803225481FB5004BA11D /* WebVC */,
+				8DDDFEEC2567B9B80012D646 /* TabbyWebVC */,
+				8D39803525481FB5004BA11D /* TransactionScreen */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8D39802F25481FB5004BA11D /* PaymentModesVC */ = {
+			isa = PBXGroup;
+			children = (
+				8D39803025481FB5004BA11D /* PaymentModesVC.swift */,
+				8D39803125481FB5004BA11D /* PaymentModesVC.xib */,
+			);
+			path = PaymentModesVC;
+			sourceTree = "<group>";
+		};
+		8D39803225481FB5004BA11D /* WebVC */ = {
+			isa = PBXGroup;
+			children = (
+				8D39803425481FB5004BA11D /* WebVC.swift */,
+				8D39803325481FB5004BA11D /* WebVC.xib */,
+			);
+			path = WebVC;
+			sourceTree = "<group>";
+		};
+		8D39803525481FB5004BA11D /* TransactionScreen */ = {
+			isa = PBXGroup;
+			children = (
+				8D39803625481FB5004BA11D /* TransactionVC.swift */,
+				8D39803725481FB5004BA11D /* TransactionVC.xib */,
+			);
+			path = TransactionScreen;
+			sourceTree = "<group>";
+		};
+		8D39803825481FB5004BA11D /* PaymentDetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				8D39803A25481FB5004BA11D /* PaymentDetailVC.swift */,
+				8D39803925481FB5004BA11D /* PaymentDetailVC.xib */,
+			);
+			path = PaymentDetailVC;
+			sourceTree = "<group>";
+		};
+		8D920314254D6A6400D0D5CD /* EmiView */ = {
+			isa = PBXGroup;
+			children = (
+				8D92030C254D64CA00D0D5CD /* EmiCellTable.swift */,
+				8D92030D254D64CA00D0D5CD /* EmiCellTable.xib */,
+				8D920308254D592400D0D5CD /* EmiCell.swift */,
+				8D920309254D592400D0D5CD /* EmiCell.xib */,
+				8D920315254D760900D0D5CD /* EmiHeaderCell.swift */,
+				8D920316254D760900D0D5CD /* EmiHeaderCell.xib */,
+				8D920310254D68D700D0D5CD /* EmiCellHeader.swift */,
+				8D920312254D68E200D0D5CD /* EmiCellHeader.xib */,
+			);
+			path = EmiView;
+			sourceTree = "<group>";
+		};
+		8DDDFEEC2567B9B80012D646 /* TabbyWebVC */ = {
+			isa = PBXGroup;
+			children = (
+				8DDDFEED2567B9DC0012D646 /* TabbyWebVC.swift */,
+				8DDDFEEE2567B9DC0012D646 /* TabbyWebVC.xib */,
+			);
+			path = TabbyWebVC;
+			sourceTree = "<group>";
+		};
+		8DE2D40A25481035009591A9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8DE2D40C25481035009591A9 /* Networking */,
+				8DE2D41225481035009591A9 /* Fonts */,
+				8DE2D40B25481035009591A9 /* Constants.swift */,
+				8DE2D40F25481035009591A9 /* Extensions.swift */,
+				8DE2D41025481035009591A9 /* AESManager.swift */,
+				8DE2D41125481035009591A9 /* Utils.swift */,
+				8DE2D41B25481035009591A9 /* UnderLineImageTextField.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8DE2D40C25481035009591A9 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				8DE2D40D25481035009591A9 /* DataService.swift */,
+				8DE2D40E25481035009591A9 /* DataClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		8DE2D41225481035009591A9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8DE2D41325481035009591A9 /* Ubuntu-Medium.ttf */,
+				8DE2D41425481035009591A9 /* Ubuntu-LightItalic.ttf */,
+				8DE2D41525481035009591A9 /* Ubuntu-Regular.ttf */,
+				8DE2D41625481035009591A9 /* Ubuntu-Bold.ttf */,
+				8DE2D41725481035009591A9 /* Ubuntu-MediumItalic.ttf */,
+				8DE2D41825481035009591A9 /* Ubuntu-BoldItalic.ttf */,
+				8DE2D41925481035009591A9 /* Ubuntu-Italic.ttf */,
+				8DE2D41A25481035009591A9 /* Ubuntu-Light.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8DE2D42B2548104F009591A9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8DE2D42C2548104F009591A9 /* PaymentMode.swift */,
+				8DE2D42D2548104F009591A9 /* BrandingDetail.swift */,
+				8D4502402554216E00759FB6 /* Epp.swift */,
+				8D86ACE525666A88006124C8 /* Tabby.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8DE2D430254810B4009591A9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8D920300254BE52E00D0D5CD /* TabbyView.swift */,
+				8D920302254BE56900D0D5CD /* TabbyView.xib */,
+				8DE2D434254810B4009591A9 /* CardView.swift */,
+				8DE2D437254810B4009591A9 /* CardView.xib */,
+				8DE2D431254810B4009591A9 /* TransactionView.swift */,
+				8DE2D432254810B4009591A9 /* TransactionView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8DE2D446254810B4009591A9 /* ViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				8D920304254C275C00D0D5CD /* EmiViewHeader.swift */,
+				8D920306254C277600D0D5CD /* EmiViewHeader.xib */,
+				8DE2D449254810B4009591A9 /* SavedCardsHeader.swift */,
+				8DE2D448254810B4009591A9 /* SavedCardsHeader.xib */,
+				8DE2D44E254810B4009591A9 /* AddCardCell.swift */,
+				8DE2D454254810B4009591A9 /* AddCardCell.xib */,
+				8D920314254D6A6400D0D5CD /* EmiView */,
+				8DE2D452254810B4009591A9 /* PaymentModeCell.swift */,
+				8DE2D44D254810B4009591A9 /* PaymentModeCell.xib */,
+			);
+			path = ViewCells;
+			sourceTree = "<group>";
+		};
 		D0978C8B2547FD3900DA9392 = {
 			isa = PBXGroup;
 			children = (
 				D0978C972547FD3900DA9392 /* Safex-Pay */,
 				D0978CA22547FD3A00DA9392 /* Safex-PayTests */,
-				D0978CB62547FD5E00DA9392 /* DemoApp */,
 				D0978C962547FD3900DA9392 /* Products */,
 				D0978CD42547FDDA00DA9392 /* Frameworks */,
 			);
@@ -113,7 +382,6 @@
 			children = (
 				D0978C952547FD3900DA9392 /* Safex_Pay.framework */,
 				D0978C9E2547FD3A00DA9392 /* Safex-PayTests.xctest */,
-				D0978CB52547FD5E00DA9392 /* DemoApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,7 +391,13 @@
 			children = (
 				D0978C982547FD3900DA9392 /* Safex_Pay.h */,
 				D0978C992547FD3900DA9392 /* Info.plist */,
-				D0978CCF2547FD8C00DA9392 /* Safex-pay.swift */,
+				D0978CCF2547FD8C00DA9392 /* Safex_pay.swift */,
+				8D39802B25481FB5004BA11D /* Controllers */,
+				8DE2D430254810B4009591A9 /* Views */,
+				8DE2D446254810B4009591A9 /* ViewCells */,
+				8DE2D42B2548104F009591A9 /* Models */,
+				8DE2D40A25481035009591A9 /* Utils */,
+				8DB7CCCB25481E43007C0A57 /* Assets.xcassets */,
 			);
 			path = "Safex-Pay";
 			sourceTree = "<group>";
@@ -137,23 +411,19 @@
 			path = "Safex-PayTests";
 			sourceTree = "<group>";
 		};
-		D0978CB62547FD5E00DA9392 /* DemoApp */ = {
-			isa = PBXGroup;
-			children = (
-				D0978CB72547FD5E00DA9392 /* AppDelegate.swift */,
-				D0978CB92547FD5E00DA9392 /* SceneDelegate.swift */,
-				D0978CBB2547FD5E00DA9392 /* ViewController.swift */,
-				D0978CBD2547FD5E00DA9392 /* Main.storyboard */,
-				D0978CC02547FD6200DA9392 /* Assets.xcassets */,
-				D0978CC22547FD6200DA9392 /* LaunchScreen.storyboard */,
-				D0978CC52547FD6200DA9392 /* Info.plist */,
-			);
-			path = DemoApp;
-			sourceTree = "<group>";
-		};
 		D0978CD42547FDDA00DA9392 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8D86ACE725666DB3006124C8 /* AnyCodable.framework */,
+				8D398047254820BC004BA11D /* IQKeyboardManagerSwift.framework */,
+				8DE2D40825480F18009591A9 /* WebKit.framework */,
+				8DE2D40525480F0B009591A9 /* KRActivityIndicatorView.framework */,
+				8DE2D3F325480EE8009591A9 /* Alamofire.framework */,
+				8DE2D3F725480EE8009591A9 /* CryptoSwift.framework */,
+				8DE2D3F425480EE8009591A9 /* IQKeyboardManager.framework */,
+				8DE2D3F525480EE8009591A9 /* Kingfisher.framework */,
+				8DE2D3F225480EE8009591A9 /* KRProgressHUD.framework */,
+				8DE2D3F625480EE8009591A9 /* RSSelectionMenu.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -180,6 +450,8 @@
 				D0978C912547FD3900DA9392 /* Sources */,
 				D0978C922547FD3900DA9392 /* Frameworks */,
 				D0978C932547FD3900DA9392 /* Resources */,
+				8DDDFEF12567FBF20012D646 /* ShellScript */,
+				8DD0143425F77DFD001474F3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -208,25 +480,6 @@
 			productReference = D0978C9E2547FD3A00DA9392 /* Safex-PayTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D0978CB42547FD5E00DA9392 /* DemoApp */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D0978CC62547FD6200DA9392 /* Build configuration list for PBXNativeTarget "DemoApp" */;
-			buildPhases = (
-				D0978CB12547FD5E00DA9392 /* Sources */,
-				D0978CB22547FD5E00DA9392 /* Frameworks */,
-				D0978CB32547FD5E00DA9392 /* Resources */,
-				D0978CD92547FDDA00DA9392 /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D0978CD82547FDDA00DA9392 /* PBXTargetDependency */,
-			);
-			name = DemoApp;
-			productName = DemoApp;
-			productReference = D0978CB52547FD5E00DA9392 /* DemoApp.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -241,9 +494,6 @@
 						LastSwiftMigration = 1210;
 					};
 					D0978C9D2547FD3A00DA9392 = {
-						CreatedOnToolsVersion = 12.1;
-					};
-					D0978CB42547FD5E00DA9392 = {
 						CreatedOnToolsVersion = 12.1;
 					};
 				};
@@ -263,7 +513,6 @@
 			targets = (
 				D0978C942547FD3900DA9392 /* Safex-Pay */,
 				D0978C9D2547FD3A00DA9392 /* Safex-PayTests */,
-				D0978CB42547FD5E00DA9392 /* DemoApp */,
 			);
 		};
 /* End PBXProject section */
@@ -273,6 +522,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DE2D42525481035009591A9 /* Ubuntu-Bold.ttf in Resources */,
+				8DE2D42425481035009591A9 /* Ubuntu-Regular.ttf in Resources */,
+				8D39803E25481FB5004BA11D /* PaymentModesVC.xib in Resources */,
+				8D39804325481FB5004BA11D /* PaymentDetailVC.xib in Resources */,
+				8DE2D456254810B4009591A9 /* TransactionView.xib in Resources */,
+				8D920318254D760900D0D5CD /* EmiHeaderCell.xib in Resources */,
+				8DB7CCCC25481E43007C0A57 /* Assets.xcassets in Resources */,
+				8DE2D42725481035009591A9 /* Ubuntu-BoldItalic.ttf in Resources */,
+				8DE2D476254810B4009591A9 /* AddCardCell.xib in Resources */,
+				8DDDFEF02567B9DC0012D646 /* TabbyWebVC.xib in Resources */,
+				8D39803F25481FB5004BA11D /* WebVC.xib in Resources */,
+				8D920313254D68E200D0D5CD /* EmiCellHeader.xib in Resources */,
+				8D920307254C277600D0D5CD /* EmiViewHeader.xib in Resources */,
+				8D39804225481FB5004BA11D /* TransactionVC.xib in Resources */,
+				8D920303254BE56900D0D5CD /* TabbyView.xib in Resources */,
+				8DE2D46A254810B4009591A9 /* SavedCardsHeader.xib in Resources */,
+				8DE2D42825481035009591A9 /* Ubuntu-Italic.ttf in Resources */,
+				8DE2D42925481035009591A9 /* Ubuntu-Light.ttf in Resources */,
+				8DE2D42625481035009591A9 /* Ubuntu-MediumItalic.ttf in Resources */,
+				8DE2D46F254810B4009591A9 /* PaymentModeCell.xib in Resources */,
+				8DE2D45B254810B4009591A9 /* CardView.xib in Resources */,
+				8DE2D42325481035009591A9 /* Ubuntu-LightItalic.ttf in Resources */,
+				8D92030B254D592400D0D5CD /* EmiCell.xib in Resources */,
+				8DE2D42225481035009591A9 /* Ubuntu-Medium.ttf in Resources */,
+				8D92030F254D64CA00D0D5CD /* EmiCellTable.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,24 +557,70 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0978CB32547FD5E00DA9392 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8DDDFEF12567FBF20012D646 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0978CC42547FD6200DA9392 /* LaunchScreen.storyboard in Resources */,
-				D0978CC12547FD6200DA9392 /* Assets.xcassets in Resources */,
-				D0978CBF2547FD5E00DA9392 /* Main.storyboard in Resources */,
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AnyCodable.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/CryptoSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/IQKeyboardManager.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/IQKeyboardManagerSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/KRActivityIndicatorView.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/KRProgressHUD.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RSSelectionMenu.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
 		};
-/* End PBXResourcesBuildPhase section */
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D0978C912547FD3900DA9392 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0978CD02547FD8C00DA9392 /* Safex-pay.swift in Sources */,
+				8DE2D41F25481035009591A9 /* Extensions.swift in Sources */,
+				8D86ACE625666A88006124C8 /* Tabby.swift in Sources */,
+				8DE2D42E2548104F009591A9 /* PaymentMode.swift in Sources */,
+				8DE2D41E25481035009591A9 /* DataClient.swift in Sources */,
+				8DE2D46B254810B4009591A9 /* SavedCardsHeader.swift in Sources */,
+				8DE2D42A25481035009591A9 /* UnderLineImageTextField.swift in Sources */,
+				8D39803D25481FB5004BA11D /* PaymentModesVC.swift in Sources */,
+				8D39804025481FB5004BA11D /* WebVC.swift in Sources */,
+				8D92030E254D64CA00D0D5CD /* EmiCellTable.swift in Sources */,
+				8D39804425481FB5004BA11D /* PaymentDetailVC.swift in Sources */,
+				8D920317254D760900D0D5CD /* EmiHeaderCell.swift in Sources */,
+				8D39804125481FB5004BA11D /* TransactionVC.swift in Sources */,
+				8DE2D470254810B4009591A9 /* AddCardCell.swift in Sources */,
+				8DE2D41D25481035009591A9 /* DataService.swift in Sources */,
+				8D4502412554216E00759FB6 /* Epp.swift in Sources */,
+				8DE2D455254810B4009591A9 /* TransactionView.swift in Sources */,
+				8D920305254C275C00D0D5CD /* EmiViewHeader.swift in Sources */,
+				8DDDFEEF2567B9DC0012D646 /* TabbyWebVC.swift in Sources */,
+				8D920311254D68D700D0D5CD /* EmiCellHeader.swift in Sources */,
+				8D92030A254D592400D0D5CD /* EmiCell.swift in Sources */,
+				8DE2D42125481035009591A9 /* Utils.swift in Sources */,
+				8DE2D458254810B4009591A9 /* CardView.swift in Sources */,
+				D0978CD02547FD8C00DA9392 /* Safex_pay.swift in Sources */,
+				8DE2D42F2548104F009591A9 /* BrandingDetail.swift in Sources */,
+				8D920301254BE52E00D0D5CD /* TabbyView.swift in Sources */,
+				8DE2D41C25481035009591A9 /* Constants.swift in Sources */,
+				8DE2D42025481035009591A9 /* AESManager.swift in Sources */,
+				8DE2D474254810B4009591A9 /* PaymentModeCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,16 +632,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0978CB12547FD5E00DA9392 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D0978CBC2547FD5E00DA9392 /* ViewController.swift in Sources */,
-				D0978CB82547FD5E00DA9392 /* AppDelegate.swift in Sources */,
-				D0978CBA2547FD5E00DA9392 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -330,31 +640,7 @@
 			target = D0978C942547FD3900DA9392 /* Safex-Pay */;
 			targetProxy = D0978CA02547FD3A00DA9392 /* PBXContainerItemProxy */;
 		};
-		D0978CD82547FDDA00DA9392 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D0978C942547FD3900DA9392 /* Safex-Pay */;
-			targetProxy = D0978CD72547FDDA00DA9392 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D0978CBD2547FD5E00DA9392 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0978CBE2547FD5E00DA9392 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D0978CC22547FD6200DA9392 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0978CC32547FD6200DA9392 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D0978CA72547FD3A00DA9392 /* Debug */ = {
@@ -483,11 +769,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9JADU77UV2;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "Safex-Pay/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -496,7 +788,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lib.safexpay.Safex-Pay";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lib.demo;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
@@ -510,11 +803,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9JADU77UV2;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "Safex-Pay/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -523,7 +822,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lib.safexpay.Safex-Pay";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lib.demo;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
@@ -536,13 +836,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JADU77UV2;
 				INFOPLIST_FILE = "Safex-PayTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lib.safexpay.Safex-PayTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -554,52 +858,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JADU77UV2;
 				INFOPLIST_FILE = "Safex-PayTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lib.safexpay.Safex-PayTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		D0978CC72547FD6200DA9392 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DemoApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lib.safexpay.DemoApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		D0978CC82547FD6200DA9392 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DemoApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lib.safexpay.DemoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -632,15 +902,6 @@
 			buildConfigurations = (
 				D0978CAD2547FD3A00DA9392 /* Debug */,
 				D0978CAE2547FD3A00DA9392 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D0978CC62547FD6200DA9392 /* Build configuration list for PBXNativeTarget "DemoApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D0978CC72547FD6200DA9392 /* Debug */,
-				D0978CC82547FD6200DA9392 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

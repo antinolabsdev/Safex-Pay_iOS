@@ -1,0 +1,11 @@
+{
+  "commitish" : "3.4.7",
+  "iOS" : [
+    {
+      "hash" : "5a65a04411f8714fb5fe46792cb4dd09a4c00dd5eb87c8d528f8fa7f63bf4e7c",
+      "name" : "KRProgressHUD",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+    }
+  ]
+}

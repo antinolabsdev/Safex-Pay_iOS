@@ -1,6 +1,534 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:../Safex-Pay/Assets.xcassets"
+      name = "Assets.xcassets">
+      <Group
+         location = "group:tickedbox.imageset"
+         name = "tickedbox.imageset">
+         <FileRef
+            location = "group:tickedbox@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:tickedbox@3x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <FileRef
+            location = "group:tickedbox@1x.png">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:rightArrow.imageset"
+         name = "rightArrow.imageset">
+         <FileRef
+            location = "group:rightArrow@1x.png">
+         </FileRef>
+         <FileRef
+            location = "group:rightArrow@3x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <FileRef
+            location = "group:rightArrow@2x.png">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:back.imageset"
+         name = "back.imageset">
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <FileRef
+            location = "group:back.png">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:close.imageset"
+         name = "close.imageset">
+         <FileRef
+            location = "group:close@1x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <FileRef
+            location = "group:close@3x.png">
+         </FileRef>
+         <FileRef
+            location = "group:close@2x.png">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:down.imageset"
+         name = "down.imageset">
+         <FileRef
+            location = "group:down@3x.png">
+         </FileRef>
+         <FileRef
+            location = "group:down@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <FileRef
+            location = "group:down@1x.png">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:qrcode.imageset"
+         name = "qrcode.imageset">
+         <FileRef
+            location = "group:qrcode.png">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Logo"
+         name = "Logo">
+         <Group
+            location = "group:imgLogo.imageset"
+            name = "imgLogo.imageset">
+            <FileRef
+               location = "group:imgLogo@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:imgLogo@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:imgLogo@1x.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:nameLogo.imageset"
+            name = "nameLogo.imageset">
+            <FileRef
+               location = "group:nameLogo@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:nameLogo@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:nameLogo@1x.png">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:profile.imageset"
+         name = "profile.imageset">
+         <FileRef
+            location = "group:profile@3x.png">
+         </FileRef>
+         <FileRef
+            location = "group:profile@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <FileRef
+            location = "group:profile@1x.png">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:Contents.json">
+      </FileRef>
+      <Group
+         location = "group:Wallets"
+         name = "Wallets">
+         <Group
+            location = "group:w-mobikwik.imageset"
+            name = "w-mobikwik.imageset">
+            <FileRef
+               location = "group:w-mobikwik.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:w-payumoney.imageset"
+            name = "w-payumoney.imageset">
+            <FileRef
+               location = "group:w-payumoney.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:w-olamoney.imageset"
+            name = "w-olamoney.imageset">
+            <FileRef
+               location = "group:w-olamoney.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:w-freecharge.imageset"
+            name = "w-freecharge.imageset">
+            <FileRef
+               location = "group:w-freecharge.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <Group
+            location = "group:w-payzapp.imageset"
+            name = "w-payzapp.imageset">
+            <FileRef
+               location = "group:w-payzapp.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:w-airtel-money.imageset"
+            name = "w-airtel-money.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:w-airtel-money.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:w-jio-money.imageset"
+            name = "w-jio-money.imageset">
+            <FileRef
+               location = "group:w-jio-money.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:upArrow.imageset"
+         name = "upArrow.imageset">
+         <FileRef
+            location = "group:upArrow@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:upArrow@3x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <FileRef
+            location = "group:upArrow@1x.png">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:tickbox.imageset"
+         name = "tickbox.imageset">
+         <FileRef
+            location = "group:tickbox@3x.png">
+         </FileRef>
+         <FileRef
+            location = "group:tickbox@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:tickbox@1x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Failure.imageset"
+         name = "Failure.imageset">
+         <FileRef
+            location = "group:Failure@1x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <FileRef
+            location = "group:Failure@3x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Failure@2x.png">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Edit Screen"
+         name = "Edit Screen">
+         <Group
+            location = "group:email.imageset"
+            name = "email.imageset">
+            <FileRef
+               location = "group:email@1x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:email@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:email@2x.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:phone.imageset"
+            name = "phone.imageset">
+            <FileRef
+               location = "group:phone@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:phone@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:phone@1x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:person.imageset"
+            name = "person.imageset">
+            <FileRef
+               location = "group:person@1x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:person@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:person@2x.png">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Banks"
+         name = "Banks">
+         <Group
+            location = "group:icici.imageset"
+            name = "icici.imageset">
+            <FileRef
+               location = "group:icici.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:sbi.imageset"
+            name = "sbi.imageset">
+            <FileRef
+               location = "group:sbi.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:hdfc.imageset"
+            name = "hdfc.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:hdfc.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:axis.imageset"
+            name = "axis.imageset">
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:axis.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:yesbank.imageset"
+            name = "yesbank.imageset">
+            <FileRef
+               location = "group:yesbank.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:kotakbank.imageset"
+            name = "kotakbank.imageset">
+            <FileRef
+               location = "group:kotakbank.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Success.imageset"
+         name = "Success.imageset">
+         <FileRef
+            location = "group:Success@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Success@3x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Success@1x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:upside.imageset"
+         name = "upside.imageset">
+         <FileRef
+            location = "group:up@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:up@3x.png">
+         </FileRef>
+         <FileRef
+            location = "group:up@1x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Payment Modes"
+         name = "Payment Modes">
+         <Group
+            location = "group:UP.imageset"
+            name = "UP.imageset">
+            <FileRef
+               location = "group:upi@1x.png">
+            </FileRef>
+            <FileRef
+               location = "group:upi@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:upi@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:WA.imageset"
+            name = "WA.imageset">
+            <FileRef
+               location = "group:wallet@1x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:wallet@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:wallet@2x.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:NB.imageset"
+            name = "NB.imageset">
+            <FileRef
+               location = "group:bank@1x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:bank@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:bank@3x.png">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <Group
+            location = "group:CC.imageset"
+            name = "CC.imageset">
+            <FileRef
+               location = "group:card@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:card@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:card@1x.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:CE.imageset"
+            name = "CE.imageset">
+            <FileRef
+               location = "group:emi@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:emi@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:emi@1x.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:DC.imageset"
+            name = "DC.imageset">
+            <FileRef
+               location = "group:card@3x.png">
+            </FileRef>
+            <FileRef
+               location = "group:card@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <FileRef
+               location = "group:card@1x.png">
+            </FileRef>
+         </Group>
+      </Group>
+   </Group>
    <FileRef
       location = "self:">
    </FileRef>

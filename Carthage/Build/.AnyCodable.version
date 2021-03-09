@@ -1,0 +1,11 @@
+{
+  "commitish" : "0.4.0",
+  "iOS" : [
+    {
+      "hash" : "e2ed143296afd577b09dd1cd0384c6179635a9ebb4703b638b9d9183bca05969",
+      "name" : "AnyCodable",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+    }
+  ]
+}

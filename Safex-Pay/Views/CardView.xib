@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Ubuntu-Bold.ttf">
+            <string>Ubuntu-Bold</string>
+        </array>
+        <array key="Ubuntu-Medium.ttf">
+            <string>Ubuntu-Medium</string>
+        </array>
+        <array key="Ubuntu-Regular.ttf">
+            <string>Ubuntu-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CardView" customModule="Safex_Pay" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CardView" customModule="Safex_Pay" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="612"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="grouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="teI-HT-RlI">
+                    <rect key="frame" x="10" y="59" width="394" height="491"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Ww-wF-SDA">
+                    <rect key="frame" x="0.0" y="565" width="414" height="42"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5000 AED" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ck8-6M-1hy">
+                            <rect key="frame" x="40" y="16.5" width="82.5" height="20.5"/>
+                            <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="18"/>
+                            <color key="textColor" red="0.0" green="0.34509803919999998" blue="0.63921568630000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amount payable" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wAO-we-gOM">
+                            <rect key="frame" x="40" y="1" width="82" height="12.5"/>
+                            <fontDescription key="fontDescription" name="Ubuntu-Regular" family="Ubuntu" pointSize="11"/>
+                            <color key="textColor" red="0.0" green="0.34509803919999998" blue="0.63921568630000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9J6-jf-ah5">
+                            <rect key="frame" x="244" y="1" width="130" height="40"/>
+                            <color key="backgroundColor" red="0.0" green="0.34509803919999998" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="130" id="8Q9-oq-VK9"/>
+                                <constraint firstAttribute="height" constant="40" id="DKE-Te-Qcf"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Ubuntu-Medium" family="Ubuntu" pointSize="15"/>
+                            <state key="normal" title="Pay now">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="payNowPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="6hf-jN-jSF"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstItem="wAO-we-gOM" firstAttribute="leading" secondItem="1Ww-wF-SDA" secondAttribute="leading" constant="40" id="D2N-Id-KL1"/>
+                        <constraint firstAttribute="trailing" secondItem="9J6-jf-ah5" secondAttribute="trailing" constant="40" id="Ez5-mR-kML"/>
+                        <constraint firstItem="Ck8-6M-1hy" firstAttribute="top" secondItem="wAO-we-gOM" secondAttribute="bottom" constant="3" id="KUZ-WM-ZXy"/>
+                        <constraint firstAttribute="height" constant="42" id="S8Y-Vy-nk7"/>
+                        <constraint firstItem="wAO-we-gOM" firstAttribute="top" secondItem="9J6-jf-ah5" secondAttribute="top" id="YGx-kX-LPa"/>
+                        <constraint firstItem="Ck8-6M-1hy" firstAttribute="leading" secondItem="wAO-we-gOM" secondAttribute="leading" id="jYD-Qv-rp9"/>
+                        <constraint firstItem="9J6-jf-ah5" firstAttribute="centerY" secondItem="1Ww-wF-SDA" secondAttribute="centerY" id="oqJ-FO-vAv"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="1Ww-wF-SDA" firstAttribute="top" secondItem="teI-HT-RlI" secondAttribute="bottom" constant="15" id="5gW-hV-WXt"/>
+                <constraint firstItem="teI-HT-RlI" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="15" id="JcY-2i-BMJ"/>
+                <constraint firstItem="1Ww-wF-SDA" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Oo9-BD-1ym"/>
+                <constraint firstAttribute="trailing" secondItem="1Ww-wF-SDA" secondAttribute="trailing" id="Q3s-rr-WAr"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="teI-HT-RlI" secondAttribute="trailing" constant="10" id="UjO-OY-IXf"/>
+                <constraint firstItem="teI-HT-RlI" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="WFv-NA-V3B"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="1Ww-wF-SDA" secondAttribute="bottom" constant="5" id="kdc-2H-A7D"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="amountPayableLbl" destination="wAO-we-gOM" id="332-Wc-pCq"/>
+                <outlet property="priceLbl" destination="Ck8-6M-1hy" id="Gga-9s-btr"/>
+                <outlet property="tableView" destination="teI-HT-RlI" id="ci1-FM-FF5"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="49.553571428571423"/>
+        </view>
+    </objects>
+</document>
