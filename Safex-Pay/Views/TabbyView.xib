@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Ubuntu-Bold.ttf">
+            <string>Ubuntu-Bold</string>
+        </array>
+        <array key="Ubuntu-Light.ttf">
+            <string>Ubuntu-Light</string>
+        </array>
+        <array key="Ubuntu-Medium.ttf">
+            <string>Ubuntu-Medium</string>
+        </array>
+        <array key="Ubuntu-Regular.ttf">
+            <string>Ubuntu-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TabbyView" customModule="Safex_Pay" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="I9Q-xB-NIn" customClass="TabbyView" customModule="Safex_Pay" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="434"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xZw-0H-V9E">
+                    <rect key="frame" x="10" y="59" width="394" height="313"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="9B3-Jj-ZiZ">
+                            <rect key="frame" x="20" y="20" width="324" height="180"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DN0-Lb-B6c">
+                                    <rect key="frame" x="0.0" y="0.0" width="324" height="75"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Unselected_Radio" translatesAutoresizingMaskIntoConstraints="NO" id="cdH-Bi-tHz">
+                                            <rect key="frame" x="5" y="10" width="20" height="20"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="20" id="6V1-kR-7Of"/>
+                                                <constraint firstAttribute="height" constant="20" id="m5i-Dd-x1m"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pay in 14 days with" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ph9-E9-qdO">
+                                            <rect key="frame" x="45" y="10.5" width="148.5" height="19.5"/>
+                                            <fontDescription key="fontDescription" name="Ubuntu-Medium" family="Ubuntu" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tabby" translatesAutoresizingMaskIntoConstraints="NO" id="Q7g-io-DHV">
+                                            <rect key="frame" x="195.5" y="10.5" width="51.5" height="20"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="Q7g-io-DHV" secondAttribute="height" multiplier="100:39" id="QWX-1y-HFq"/>
+                                                <constraint firstAttribute="height" constant="20" id="mL0-68-a8O"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- No additional fees." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Xc-Vm-X0M">
+                                            <rect key="frame" x="45" y="37" width="106.5" height="13.5"/>
+                                            <fontDescription key="fontDescription" name="Ubuntu-Light" family="Ubuntu" pointSize="12"/>
+                                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Get your order first and pay in 14 days." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KiG-qV-ysU">
+                                            <rect key="frame" x="45" y="55.5" width="211.5" height="13.5"/>
+                                            <fontDescription key="fontDescription" name="Ubuntu-Light" family="Ubuntu" pointSize="12"/>
+                                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    <constraints>
+                                        <constraint firstItem="KiG-qV-ysU" firstAttribute="top" secondItem="8Xc-Vm-X0M" secondAttribute="bottom" constant="5" id="0SC-Vl-9uP"/>
+                                        <constraint firstItem="cdH-Bi-tHz" firstAttribute="leading" secondItem="DN0-Lb-B6c" secondAttribute="leading" constant="5" id="3Vg-HQ-nRP"/>
+                                        <constraint firstItem="Q7g-io-DHV" firstAttribute="leading" secondItem="Ph9-E9-qdO" secondAttribute="trailing" constant="2" id="6HX-4r-uD3"/>
+                                        <constraint firstItem="cdH-Bi-tHz" firstAttribute="top" secondItem="DN0-Lb-B6c" secondAttribute="top" constant="10" id="FHF-YR-62r"/>
+                                        <constraint firstItem="8Xc-Vm-X0M" firstAttribute="top" secondItem="Ph9-E9-qdO" secondAttribute="bottom" constant="7" id="ICg-LS-195"/>
+                                        <constraint firstItem="Ph9-E9-qdO" firstAttribute="centerY" secondItem="cdH-Bi-tHz" secondAttribute="centerY" id="J8G-LI-e50"/>
+                                        <constraint firstItem="8Xc-Vm-X0M" firstAttribute="leading" secondItem="Ph9-E9-qdO" secondAttribute="leading" id="PVH-li-BMP"/>
+                                        <constraint firstItem="Ph9-E9-qdO" firstAttribute="leading" secondItem="cdH-Bi-tHz" secondAttribute="trailing" constant="20" id="PoL-Qb-wVH"/>
+                                        <constraint firstItem="KiG-qV-ysU" firstAttribute="leading" secondItem="8Xc-Vm-X0M" secondAttribute="leading" id="T3g-nv-ik4"/>
+                                        <constraint firstItem="Q7g-io-DHV" firstAttribute="top" secondItem="Ph9-E9-qdO" secondAttribute="top" id="Tub-tE-gpn"/>
+                                        <constraint firstAttribute="height" constant="75" id="xH8-rn-a3T"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tru-V6-ojm">
+                                    <rect key="frame" x="0.0" y="90" width="324" height="90"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Unselected_Radio" translatesAutoresizingMaskIntoConstraints="NO" id="Jb5-ck-btN">
+                                            <rect key="frame" x="5" y="10" width="20" height="20"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="20" id="A1Y-lo-G0L"/>
+                                                <constraint firstAttribute="height" constant="20" id="BVQ-Ny-sbZ"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pay in instalments with" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="juK-qx-mpl">
+                                            <rect key="frame" x="45" y="10.5" width="182.5" height="19.5"/>
+                                            <fontDescription key="fontDescription" name="Ubuntu-Medium" family="Ubuntu" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tabby" translatesAutoresizingMaskIntoConstraints="NO" id="n1P-Ze-DBF">
+                                            <rect key="frame" x="229.5" y="10.5" width="51.5" height="20"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="20" id="SfZ-jL-55V"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- No interest or additional fees." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u0f-Q7-wgo">
+                                            <rect key="frame" x="45" y="37" width="165" height="13.5"/>
+                                            <fontDescription key="fontDescription" name="Ubuntu-Light" family="Ubuntu" pointSize="12"/>
+                                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Any debit or credit card accepted." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lK7-NF-QLo">
+                                            <rect key="frame" x="45" y="55.5" width="186" height="13.5"/>
+                                            <fontDescription key="fontDescription" name="Ubuntu-Light" family="Ubuntu" pointSize="12"/>
+                                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Pay 25% now and the rest over 3 months." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bQO-in-fIq">
+                                            <rect key="frame" x="45" y="74" width="227" height="13.5"/>
+                                            <fontDescription key="fontDescription" name="Ubuntu-Light" family="Ubuntu" pointSize="12"/>
+                                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    <constraints>
+                                        <constraint firstItem="lK7-NF-QLo" firstAttribute="top" secondItem="u0f-Q7-wgo" secondAttribute="bottom" constant="5" id="29c-uc-mZi"/>
+                                        <constraint firstItem="n1P-Ze-DBF" firstAttribute="top" secondItem="juK-qx-mpl" secondAttribute="top" id="EQj-RE-SPh"/>
+                                        <constraint firstItem="juK-qx-mpl" firstAttribute="centerY" secondItem="Jb5-ck-btN" secondAttribute="centerY" id="FJ7-aO-kMR"/>
+                                        <constraint firstItem="n1P-Ze-DBF" firstAttribute="leading" secondItem="juK-qx-mpl" secondAttribute="trailing" constant="2" id="J9w-Mc-0HD"/>
+                                        <constraint firstItem="Jb5-ck-btN" firstAttribute="leading" secondItem="tru-V6-ojm" secondAttribute="leading" constant="5" id="PLx-Xk-4gN"/>
+                                        <constraint firstItem="bQO-in-fIq" firstAttribute="top" secondItem="lK7-NF-QLo" secondAttribute="bottom" constant="5" id="Q7K-nO-eXw"/>
+                                        <constraint firstItem="juK-qx-mpl" firstAttribute="leading" secondItem="Jb5-ck-btN" secondAttribute="trailing" constant="20" id="QiN-Rw-OQO"/>
+                                        <constraint firstItem="n1P-Ze-DBF" firstAttribute="width" secondItem="n1P-Ze-DBF" secondAttribute="height" multiplier="100:39" id="a3z-eQ-D53"/>
+                                        <constraint firstItem="u0f-Q7-wgo" firstAttribute="leading" secondItem="juK-qx-mpl" secondAttribute="leading" id="edl-ov-o9N"/>
+                                        <constraint firstItem="Jb5-ck-btN" firstAttribute="top" secondItem="tru-V6-ojm" secondAttribute="top" constant="10" id="foP-6L-V0z"/>
+                                        <constraint firstItem="lK7-NF-QLo" firstAttribute="leading" secondItem="u0f-Q7-wgo" secondAttribute="leading" id="iao-i0-LdH"/>
+                                        <constraint firstItem="u0f-Q7-wgo" firstAttribute="top" secondItem="juK-qx-mpl" secondAttribute="bottom" constant="7" id="mfZ-8d-Qli"/>
+                                        <constraint firstItem="bQO-in-fIq" firstAttribute="leading" secondItem="lK7-NF-QLo" secondAttribute="leading" id="uY5-o8-BQY"/>
+                                        <constraint firstAttribute="height" constant="90" id="x7y-2d-hMh"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="9B3-Jj-ZiZ" secondAttribute="trailing" constant="50" id="6RI-pF-iVH"/>
+                        <constraint firstItem="9B3-Jj-ZiZ" firstAttribute="top" secondItem="xZw-0H-V9E" secondAttribute="top" constant="20" id="YIh-vb-mj0"/>
+                        <constraint firstItem="9B3-Jj-ZiZ" firstAttribute="leading" secondItem="xZw-0H-V9E" secondAttribute="leading" constant="20" id="x53-Lo-3lW"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8uQ-hE-isT">
+                    <rect key="frame" x="0.0" y="387" width="414" height="42"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5000 AED" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N1H-Lb-Vwh">
+                            <rect key="frame" x="40" y="16.5" width="82.5" height="20.5"/>
+                            <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="18"/>
+                            <color key="textColor" red="0.0" green="0.34509803919999998" blue="0.63921568630000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amount payable" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TXe-6h-5Kj">
+                            <rect key="frame" x="40" y="1" width="82" height="12.5"/>
+                            <fontDescription key="fontDescription" name="Ubuntu-Regular" family="Ubuntu" pointSize="11"/>
+                            <color key="textColor" red="0.0" green="0.34509803919999998" blue="0.63921568630000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D3Z-Pl-sBv">
+                            <rect key="frame" x="244" y="1" width="130" height="40"/>
+                            <color key="backgroundColor" red="0.0" green="0.34509803919999998" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="130" id="UaN-YU-Dl0"/>
+                                <constraint firstAttribute="height" constant="40" id="lH9-QR-VVV"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Ubuntu-Medium" family="Ubuntu" pointSize="15"/>
+                            <state key="normal" title="Pay now">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="payBtnPressed:" destination="I9Q-xB-NIn" eventType="touchUpInside" id="H4V-iJ-QIW"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstItem="D3Z-Pl-sBv" firstAttribute="centerY" secondItem="8uQ-hE-isT" secondAttribute="centerY" id="5S3-R7-2hz"/>
+                        <constraint firstItem="N1H-Lb-Vwh" firstAttribute="leading" secondItem="TXe-6h-5Kj" secondAttribute="leading" id="7Eh-sj-GoU"/>
+                        <constraint firstItem="N1H-Lb-Vwh" firstAttribute="top" secondItem="TXe-6h-5Kj" secondAttribute="bottom" constant="3" id="K7n-uU-Tft"/>
+                        <constraint firstItem="TXe-6h-5Kj" firstAttribute="top" secondItem="D3Z-Pl-sBv" secondAttribute="top" id="QAH-0b-3tm"/>
+                        <constraint firstItem="TXe-6h-5Kj" firstAttribute="leading" secondItem="8uQ-hE-isT" secondAttribute="leading" constant="40" id="TOe-4J-rUP"/>
+                        <constraint firstAttribute="trailing" secondItem="D3Z-Pl-sBv" secondAttribute="trailing" constant="40" id="dDj-e7-3gy"/>
+                        <constraint firstAttribute="height" constant="42" id="otA-bV-zX7"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="xZw-0H-V9E" firstAttribute="top" secondItem="m1B-d7-uf7" secondAttribute="top" constant="15" id="7ao-gK-tzN"/>
+                <constraint firstItem="8uQ-hE-isT" firstAttribute="top" secondItem="xZw-0H-V9E" secondAttribute="bottom" constant="15" id="AL7-bk-YgA"/>
+                <constraint firstItem="m1B-d7-uf7" firstAttribute="trailing" secondItem="8uQ-hE-isT" secondAttribute="trailing" id="G0u-Qs-v4e"/>
+                <constraint firstItem="m1B-d7-uf7" firstAttribute="trailing" secondItem="xZw-0H-V9E" secondAttribute="trailing" constant="10" id="Tad-pN-YhR"/>
+                <constraint firstItem="xZw-0H-V9E" firstAttribute="leading" secondItem="m1B-d7-uf7" secondAttribute="leading" constant="10" id="To6-4L-MhY"/>
+                <constraint firstItem="8uQ-hE-isT" firstAttribute="leading" secondItem="I9Q-xB-NIn" secondAttribute="leading" id="VDY-EK-Nzo"/>
+                <constraint firstItem="m1B-d7-uf7" firstAttribute="bottom" secondItem="8uQ-hE-isT" secondAttribute="bottom" constant="5" id="roX-9R-P5N"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="m1B-d7-uf7"/>
+            <connections>
+                <outlet property="payBtn" destination="D3Z-Pl-sBv" id="S2Y-oW-5o6"/>
+                <outlet property="payInstalmentRadioImg" destination="Jb5-ck-btN" id="FoL-Zh-NfS"/>
+                <outlet property="payInstalmentView" destination="tru-V6-ojm" id="yIg-jg-8Ls"/>
+                <outlet property="payLaterRadioImg" destination="cdH-Bi-tHz" id="Y6M-Rf-DPT"/>
+                <outlet property="payLaterView" destination="DN0-Lb-B6c" id="WsO-2E-r9C"/>
+                <outlet property="priceLbl" destination="N1H-Lb-Vwh" id="8Gn-ni-WVv"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="-10.044642857142856"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Unselected_Radio" width="20" height="20"/>
+        <image name="tabby" width="100" height="39"/>
+    </resources>
+</document>

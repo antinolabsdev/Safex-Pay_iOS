@@ -1,0 +1,11 @@
+{
+  "commitish" : "1.3.8",
+  "iOS" : [
+    {
+      "hash" : "ffe865a346cd234badf8145bc535b2c84b1732534825d21c0cfde782bc3278b9",
+      "name" : "CryptoSwift",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+    }
+  ]
+}

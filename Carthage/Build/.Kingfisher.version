@@ -1,0 +1,17 @@
+{
+  "commitish" : "5.15.8",
+  "iOS" : [
+    {
+      "hash" : "02c7c97967a3d456ad280ffcc3d60596d9eef720137cabcc5f1ad561bf160abf",
+      "name" : "Kingfisher",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+    },
+    {
+      "hash" : "2ff4ec22e4f5a61aa9fae13d141144e94c3b7d10943cb53ba1b6cc4cd18e84a3",
+      "name" : "KingfisherSwiftUI",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+    }
+  ]
+}
